@@ -16,3 +16,11 @@ a{
 .parrafoverde{
     color:green
 }
+
+.textoGrandeNegrita{
+    font-size: x-large; /*tamaño de la fuente*/
+    font-weight: 300; /*grueso de la fuente*/
+    font-style: italic; /*estilo*/
+    font-stretch: normal; /*separaci+ón de las letras*/
+    font-family: 'Times New Roman', Times, serif; /*Fuente*/
+}
