@@ -18,9 +18,16 @@ a{
 }
 
 .textoGrandeNegrita{
-    font-size: x-large; /*tamaño de la fuente*/
+    font-size: x-large; /*tamaño de la fuente, puede asignarse también con 10px*/
     font-weight: 300; /*grueso de la fuente*/
     font-style: italic; /*estilo*/
-    font-stretch: normal; /*separaci+ón de las letras*/
+    font-stretch: normal; /*separación de las letras*/
     font-family: 'Times New Roman', Times, serif; /*Fuente*/
+}
+
+/*estilos para imágenes*/
+
+.imagenPequeña{
+    height: 600px; /*altura*/
+    width: auto; /*Ancho
 }
