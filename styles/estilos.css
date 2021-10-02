@@ -29,5 +29,32 @@ a{
 
 .imagenPequeña{
     height: 600px; /*altura*/
-    width: auto; /*Ancho
+    width: auto; /*Ancho*/
+}
+
+.contenedorMargin{
+    margin: 20px; /*Espacio del elemento con relación a los elementos cercanos, también se pueden setiar cada uno de los márgenes con margin-left, margin-top etc*/
+    border: 1px solid blue;
+    padding: 10px; /*Espacio entre el borde y el contenido de la sección*/
+}
+
+.DivBorde{
+    border: 1px solid red;
+}
+
+.ContenedorGrid{
+    border: 4px solid chartreuse;
+    display: grid;
+    grid-column: auto;
+    grid-template-columns: 30% 30% 30%;
+}
+
+.contenedorFlex{
+    margin: 10px;
+    display: flex;
+    border: 3px solid blue;
+    justify-content: center;
+    /*justify-content: space-between;     Funciona para dar espacio entre cada Div dentro del comtenedor*/
+    align-items: center;
+
 }
