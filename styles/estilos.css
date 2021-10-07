@@ -24,7 +24,7 @@ ul {
     height: 130px;
 }
 
-.mainButton{
+.Button{
     background-color: #6cb42c;
     border: 0px;
     padding: 5px 80px;
@@ -35,8 +35,16 @@ ul {
     box-shadow: 1px 1px black; 
 }
 
-.mainButton:hover{
+.Button:hover{
     cursor: pointer;
     transform: scale(1.1);
+}
+.mainButton{
+    background-color: #6cb42c;
+    color: honeydew;
+}
 
+.secondaryButton{
+    background-color: rgb(74, 130, 0);
+    color: white;
 }
