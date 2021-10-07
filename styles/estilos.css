@@ -82,16 +82,36 @@ ul {
     width: 450px;
     height: 290px;
     display: flex; /*Es necesario poner este flex para que las imágenes tomen las propiedades que vienen después*/
-}
-.contenedorImagen > img{
-    object-fit: cover; /*Con esta opción es posible ajustar las imágenes, explorar todas las opciones*/
-    width: 100%;
+    margin-bottom: 10px;
 }
 
-.formaConteiner{
+.contenedorImagen:hover{ /*Estilo para el paso del cursor sobre la imagen*/
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.contenedorImagen > img{ /*Class con estilos para la imagen*/
+    object-fit: cover; /*Con esta opción es posible ajustar las imágenes, explorar todas las opciones*/
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.formaConteiner{ /*Class para que las imágenes se muestren una al lado del la otra*/
     display: flex;
 }
 
 .espacioEntreImagenes{
     margin: 20px;
+    background-color: rgb(179, 212, 146); /*Color para la descripción del producto*/
+    box-shadow: 3px 3px 5px grey;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.estiloNombre{
+    color: black;
+    margin: 10px;
+    font-weight: bold;
+    padding: 5px;
+    font-size: large;
 }
