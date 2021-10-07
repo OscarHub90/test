@@ -70,3 +70,28 @@ ul {
     color: blue;
     transform: scale(1.1);
 }
+
+.titulo{
+    background-color: #6cb42c;
+    padding: 4px;
+    justify-content: center;
+    color: white;
+}
+
+.contenedorImagen{
+    width: 450px;
+    height: 290px;
+    display: flex; /*Es necesario poner este flex para que las imágenes tomen las propiedades que vienen después*/
+}
+.contenedorImagen > img{
+    object-fit: cover; /*Con esta opción es posible ajustar las imágenes, explorar todas las opciones*/
+    width: 100%;
+}
+
+.formaConteiner{
+    display: flex;
+}
+
+.espacioEntreImagenes{
+    margin: 20px;
+}
