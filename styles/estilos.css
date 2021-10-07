@@ -24,7 +24,7 @@ ul {
     height: 130px;
 }
 
-.mainButton{
+.Button{
     background-color: #6cb42c;
     border: 0px;
     padding: 5px 80px;
@@ -35,8 +35,28 @@ ul {
     box-shadow: 1px 1px black; 
 }
 
-.mainButton:hover{
+.Button:hover{
     cursor: pointer;
     transform: scale(1.1);
+}
+.mainButton{
+    background-color: #6cb42c;
+    color: honeydew;
+}
+
+.secondaryButton{
+    background-color: rgb(74, 130, 0);
+    color: white;
+}
+
+.buscar{
+    background-color: white;
+    border: 1px solid grey;
+    padding: 4px;
+    border-radius: 8px; /* Redondear los bordes*/
+}
+.buscar > input{ /*Este estilo aplica para todos lo input que estén debajo de un objeto con class buscar*/
+    outline: none;
+    border: 0px; /*quitamos los bordes del recuadro buscar*/
 
 }
