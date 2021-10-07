@@ -16,8 +16,9 @@ ul {
 
 .navbar{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /*centrar todos los elementos dentro del Div */
     padding: 50px;
+    border: 1px solid grey;
 }
 
 .logo{
@@ -52,11 +53,20 @@ ul {
 .buscar{
     background-color: white;
     border: 1px solid grey;
-    padding: 4px;
+    padding: 5px;
     border-radius: 8px; /* Redondear los bordes*/
 }
 .buscar > input{ /*Este estilo aplica para todos lo input que estén debajo de un objeto con class buscar*/
     outline: none;
     border: 0px; /*quitamos los bordes del recuadro buscar*/
+    width: 240px; /*Alto*/
+    height: 20px; /*Ancho*/
+}
 
+.logoBusqueda{
+    cursor: pointer;
+}
+.logoBusqueda:hover{ /*Estilo para la lupa de búsqueda*/
+    color: blue;
+    transform: scale(1.1);
 }
