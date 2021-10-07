@@ -48,3 +48,15 @@ ul {
     background-color: rgb(74, 130, 0);
     color: white;
 }
+
+.buscar{
+    background-color: white;
+    border: 1px solid grey;
+    padding: 4px;
+    border-radius: 8px; /* Redondear los bordes*/
+}
+.buscar > input{ /*Este estilo aplica para todos lo input que estén debajo de un objeto con class buscar*/
+    outline: none;
+    border: 0px; /*quitamos los bordes del recuadro buscar*/
+
+}
