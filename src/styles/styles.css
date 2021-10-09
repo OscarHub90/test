@@ -1,0 +1,117 @@
+h1{
+  background-color: #6cb42c;
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+  margin: 0px;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between; /*centrar todos los elementos dentro del Div */
+  padding: 50px;
+  border: 1px solid grey;
+}
+
+.logo{
+  height: 130px;
+}
+
+.Button{
+  background-color: #6cb42c;
+  border: 0px;
+  padding: 5px 80px;
+  font-weight: bolder;
+  font-family: sans-serif;
+  font-size: medium;
+  border-radius: 10px;
+  box-shadow: 1px 1px black; 
+}
+
+.Button:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.mainButton{
+  background-color: #6cb42c;
+  color: honeydew;
+}
+
+.secondaryButton{
+  background-color: rgb(74, 130, 0);
+  color: white;
+}
+
+.buscar{
+  background-color: white;
+  border: 1px solid grey;
+  padding: 5px;
+  border-radius: 8px; /* Redondear los bordes*/
+}
+.buscar > input{ /*Este estilo aplica para todos lo input que estén debajo de un objeto con class buscar*/
+  outline: none;
+  border: 0px; /*quitamos los bordes del recuadro buscar*/
+  width: 240px; /*Alto*/
+  height: 20px; /*Ancho*/
+}
+
+.logoBusqueda{
+  cursor: pointer;
+}
+.logoBusqueda:hover{ /*Estilo para la lupa de búsqueda*/
+  color: blue;
+  transform: scale(1.1);
+}
+
+.titulo{
+  background-color: #6cb42c;
+  padding: 4px;
+  justify-content: center;
+  color: white;
+}
+
+.contenedorImagen{
+  width: 450px;
+  height: 290px;
+  display: flex; /*Es necesario poner este flex para que las imágenes tomen las propiedades que vienen después*/
+  margin-bottom: 10px;
+}
+
+.contenedorImagen:hover{ /*Estilo para el paso del cursor sobre la imagen*/
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.contenedorImagen > img{ /*Class con estilos para la imagen*/
+  object-fit: cover; /*Con esta opción es posible ajustar las imágenes, explorar todas las opciones*/
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.formaConteiner{ /*Class para que las imágenes se muestren una al lado del la otra*/
+  display: flex;
+}
+
+.espacioEntreImagenes{
+  margin: 20px;
+  background-color: rgb(179, 212, 146); /*Color para la descripción del producto*/
+  box-shadow: 3px 3px 5px grey;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.estiloNombre{ /*Estilos para el nombre de la imagen*/
+  color: black;
+  margin: 10px;
+  font-weight: bold;
+  padding: 5px;
+  font-size: large;
+}
