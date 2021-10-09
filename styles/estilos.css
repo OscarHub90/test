@@ -108,7 +108,7 @@ ul {
     border-top-right-radius: 10px;
 }
 
-.estiloNombre{
+.estiloNombre{ /*Estilos para el nombre de la imagen*/
     color: black;
     margin: 10px;
     font-weight: bold;
