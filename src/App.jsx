@@ -31,18 +31,9 @@ function App() {
   <section>
       <h2>PRODUCTOS</h2>
       <ul className="formaConteiner">
-          <li className="espacioEntreImagenes">
-              <div className="contenedorImagen">
-                <img src= {tennisBlancos} alt="Imagen tennis blancos" />
-               </div>
-              <span className="estiloNombre">Tennis Blancos</span>         
-          </li>
-          <li className="espacioEntreImagenes">
-                <div className="contenedorImagen">
-                  <img src= {tennisNegros} alt="Imagen tennis negros" />
-                </div>
-              <span className="estiloNombre">Tennis Negros</span>  
-          </li>
+        <TennisDeportivos />
+        <TennisDeportivos />
+        <TennisDeportivos />
       </ul>
   </section>
 </main>
@@ -51,4 +42,13 @@ function App() {
   );
 }
 
+function TennisDeportivos(){
+  return (
+  <li className="espacioEntreImagenes">
+  <div className="contenedorImagen">
+    <img src= {tennisBlancos} alt="Imagen tennis blancos" />
+   </div>
+  <span className="estiloNombre">Tennis Blancos</span>         
+</li>)
+}
 export default App;
