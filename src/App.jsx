@@ -31,9 +31,9 @@ function App() {
   <section>
       <h2>PRODUCTOS</h2>
       <ul className="formaConteiner">
-        <TennisDeportivos />
-        <TennisDeportivos />
-        <TennisDeportivos />
+        <TennisDeportivos Referencia="Tennis Blancos" imagen={tennisBlancos}/>
+        <TennisDeportivos Referencia= "Tennis Negros" imagen={tennisNegros}/>
+        <TennisDeportivos Referencia= "Tennis Blancos"imagen={tennisBlancos}/>
       </ul>
   </section>
 </main>
@@ -42,13 +42,13 @@ function App() {
   );
 }
 
-function TennisDeportivos(){
+function TennisDeportivos(props){
   return (
   <li className="espacioEntreImagenes">
   <div className="contenedorImagen">
-    <img src= {tennisBlancos} alt="Imagen tennis blancos" />
+    <img src= {props.imagen} alt= "Alt"/>
    </div>
-  <span className="estiloNombre">Tennis Blancos</span>         
+  <span className="estiloNombre"> {props.Referencia}</span>       
 </li>)
 }
 export default App;
