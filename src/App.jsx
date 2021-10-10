@@ -42,13 +42,13 @@ function App() {
   );
 }
 
-function TennisDeportivos(props){
+function TennisDeportivos({imagen,Referencia}){
   return (
   <li className="espacioEntreImagenes">
   <div className="contenedorImagen">
-    <img src= {props.imagen} alt= "Alt"/>
+    <img src= {imagen} alt= "Alt"/>
    </div>
-  <span className="estiloNombre"> {props.Referencia}</span>       
+  <span className="estiloNombre"> {Referencia}</span>       
 </li>)
 }
 export default App;
