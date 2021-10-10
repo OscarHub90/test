@@ -1,16 +1,21 @@
-import logo from './logo.svg';
 import './styles/styles.css';
 import tennisBlancos from "./media/Blancos.jpg"
 import tennisNegros from "./media/Negros.jpg"
+import logo from "./media/Tech&Fun.png"
 
 function App() {
   return (
     <div className="App">
   <header>
-      
+
   </header>
   <main>
      <ul className="navbar">
+     <li>
+        <div className="logoPpal">
+          <img src={logo} alt="" />          
+        </div>
+      </li>
       <li>
           <button className="Button mainButton">Agregar Producto</button>
       </li>
@@ -20,8 +25,8 @@ function App() {
               <i className="fas fa-search logoBusqueda"></i>
           </div>
       </li>
-      <li>Iniciar Sesión</li>
       <li><button className="Button secondaryButton">Editar Producto</button></li>
+      
   </ul>
   <section>
       <h2>PRODUCTOS</h2>

@@ -4,6 +4,13 @@ h1{
   margin: 0px;
 }
 
+.logoPpal{
+  width: 80px;
+  height: 80px;
+  display: flex;
+  cursor: pointer;
+}
+
 body{
   margin: 0px;
 }
