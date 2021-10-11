@@ -7,3 +7,5 @@ function TennisDeportivos({imagen,Referencia}){
     <span className="estiloNombre"> {Referencia}</span>       
   </li>)
 }
+
+export default TennisDeportivos;
