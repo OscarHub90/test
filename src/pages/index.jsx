@@ -1,18 +1,18 @@
-import tennisBlancos from "media/Blancos.jpg"
-import tennisNegros from "media/Negros.jpg"
-import logo from "media/Tech&Fun.png"
 import TennisDeportivos from 'components/TennisDeportivos';
+import logo from "media/Tech&Fun.png";
+import tennisBlancos from "media/Blancos.jpg";
+import tennisNegros from "media/Negros.jpg";
 
 function Index(){
     return(
-        <div className="App">
+        <div>
         <header>
         </header>
         <main>
            <ul className="navbar">
            <li>
               <div className="logoPpal">
-                <img src={logo} alt="" />          
+                <img src={logo} alt="" />
               </div>
             </li>
             <li>
@@ -34,9 +34,9 @@ function Index(){
               <TennisDeportivos Referencia= "Tennis Blancos"imagen={tennisBlancos}/>
             </ul>
         </section>
-      </main>
-      <footer></footer>
-          </div>
+        </main>
+        <footer></footer>
+        </div>
     )
 }
 export default Index;
