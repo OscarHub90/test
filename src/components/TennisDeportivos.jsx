@@ -1,9 +1,13 @@
+import { Link } from "react-router-dom";
+
 function TennisDeportivos({imagen,Referencia}){
     return (
     <li className="espacioEntreImagenes">
-    <div className="contenedorImagen">
-      <img src= {imagen} alt= "Alt"/>
-     </div>
+      <Link to="/TennisBlancos" >
+          <div className="contenedorImagen">
+              <img src= {imagen} alt= "Alt"/>
+          </div>
+      </Link>
     <span className="estiloNombre"> {Referencia}</span>       
   </li>)
 }

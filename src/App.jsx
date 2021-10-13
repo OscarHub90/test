@@ -1,3 +1,4 @@
+import TennisDeportivos from 'components/TennisDeportivos';
 import Index from 'pages';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import './styles/styles.css';
@@ -9,12 +10,12 @@ function App() {
       <Router>
         <Switch>
           <Route path="/index">
-            <Index />
+              <TennisDeportivos />
+             <Index />
           </Route>
         </Switch>
       </Router>
     </div>
   );
 }
-
 export default App;
