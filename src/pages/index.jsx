@@ -3,6 +3,7 @@ import TennisDeportivos from 'components/TennisDeportivos';
 import logo from "media/Tech&Fun.png";
 import tennisBlancos from "media/Blancos.jpg";
 import tennisNegros from "media/Negros.jpg";
+import Footer from 'components/Footer';
 
 function Index(){
     return(
@@ -36,7 +37,7 @@ function Index(){
             </ul>
         </section>
         </main>
-        <footer></footer>
+        <Footer />
         </div>
     )
 }
